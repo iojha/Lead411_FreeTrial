@@ -1,0 +1,164 @@
+/*Global Styles*/
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited
+{ 
+  color:inherit;
+}
+
+a:link {
+color: #333333 !important;
+}
+
+strong {
+  color: inherit;
+}
+
+h1, h2, h3, h4, p {
+  font-family: "dosis", sans-serif;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif;
+  font-size: 42px;
+  color: #2698d4;
+  font-weight: bold;
+  text-align:center !important;
+  text-transform:uppercase;
+}
+
+h2 {
+  font-family: "Dosis", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #333333;
+}
+
+h3 {
+  font-size: 24px;
+  color: #fff;
+}
+
+h4 {
+  font-size: 16px;
+  color: #fff;
+}
+
+
+header {
+  background-color: #404041;
+  position: relative;
+  top: 0px;
+  width: auto;
+  height: 95px;
+  padding: 20px auto;
+ }
+
+header h4 {
+  float: right;
+  padding: 60px 40px;
+  color: #fff;
+  }
+
+.top {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.hero {
+  background-color: #2698d4;
+  padding: 20px auto;
+  text-align: center;
+ }
+
+.hero h2 {
+  background-color: #0e76bc;
+  padding: 20px 0;
+  color: #fff;
+ }
+
+.hero ul li {
+  padding: 20px 0;
+}
+
+.hero .competition h4{
+  line-height: 15px;
+}
+
+.hero .unlimited {
+  display: inline;
+}
+
+.hero .requestdemo {
+  background: #0e76bc;
+  border-radius: 7px;
+  box-shadow: 0 3px #0d5185;
+  height: 37px;
+  width: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff;
+  font-size: 16px;
+  display: inline;
+}
+
+.cta {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background-color: #fff;
+}
+
+.cta h3{
+  font-size: 20px;
+  line-height: 45px;
+}
+
+.cta ul li{
+  display: inline-block;
+  padding: 0 75px;
+}
+
+.cta .demo {
+  background-image: url('../images/bluebtn.png');
+  background-repeat: no-repeat;
+  width: 207px;
+  height: 43px;
+  text-align: left;
+}
+
+.cta .signup {
+  background-image: url('../images/orangebtn.png');
+  background-repeat: no-repeat;
+  width: 207px;
+  height: 43px;
+  text-align: center;
+}
+
+.cta .gotoaccount {
+  background-image: url('../images/greenbtn.png');
+  background-repeat: no-repeat;
+  width: 207px;
+  height: 43px;
+  text-align: center;
+}
+
+.featured {
+  background-image: url('../images/featured.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+footer {
+  background-color: #404041;
+  height: 95px;
+}
+
+
