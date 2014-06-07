@@ -27,6 +27,10 @@ h1 {
   font-size: 42px;
   color: #2698d4;
   font-weight: bold;
+<<<<<<< HEAD
+=======
+  text-align:center !important;
+>>>>>>> master
   text-transform:uppercase;
 }
 
@@ -50,6 +54,10 @@ h4 {
 
 header {
   background-color: #404041;
+<<<<<<< HEAD
+=======
+  position: relative;
+>>>>>>> master
   top: 0px;
   width: auto;
   height: 95px;
@@ -62,6 +70,7 @@ header h4 {
   color: #fff;
   }
 
+<<<<<<< HEAD
 .logo {
   float: left;
   padding: 15px 15px;
@@ -76,19 +85,33 @@ header h4 {
     content: url('../images/trianglewhite.png');
     position: absolute;
     display: block;
-    margin-left: 48%;
+    margin-left: 47%;
     margin-top: 60px;
    }
 
 .hero {
   background-color: #2698d4;
   padding-bottom: 20px; 
+=======
+.top {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.hero {
+  background-color: #2698d4;
+  padding: 20px auto;
+>>>>>>> master
   text-align: center;
  }
 
 .hero h2 {
   background-color: #0e76bc;
+<<<<<<< HEAD
   padding: 30px 0;
+=======
+  padding: 20px 0;
+>>>>>>> master
   color: #fff;
  }
 
@@ -96,12 +119,17 @@ header h4 {
   padding: 20px 0;
 }
 
+<<<<<<< HEAD
 .hero ul li h3 {
   line-height: 28px;
 }
 
 .hero ul li h4 {
   line-height: 16px;
+=======
+.hero .competition h4{
+  line-height: 15px;
+>>>>>>> master
 }
 
 .hero .unlimited {
@@ -123,17 +151,23 @@ header h4 {
   display: inline;
 }
 
+<<<<<<< HEAD
 .cta:before {
     content: url('../images/triangleblue.png');
     position: absolute;
     display: block;
-    margin-left: 48%;
+    margin-left: 47%;
     margin-top: -90px;
 }
 
 .cta {
   padding-top: 90px;
   padding-bottom: 50px;
+=======
+.cta {
+  padding-top: 80px;
+  padding-bottom: 40px;
+>>>>>>> master
   background-color: #fff;
 }
 
