@@ -5,13 +5,8 @@ a {
   color: inherit;
 }
 
-a:visited
-{ 
+a:visited { 
   color:inherit;
-}
-
-a:link {
-color: #333333 !important;
 }
 
 strong {
@@ -23,31 +18,27 @@ h1, h2, h3, h4, p {
 }
 
 h1 {
-  font-family: "Dosis", sans-serif;
   font-size: 42px;
   color: #2698d4;
-  font-weight: bold;
-  text-align:center !important;
-  text-transform:uppercase;
 }
 
 h2 {
-  font-family: "Dosis", sans-serif;
   font-size: 30px;
-  text-align: center;
   color: #333333;
 }
 
 h3 {
   font-size: 24px;
-  color: #fff;
+  color: #333333;
 }
 
 h4 {
   font-size: 16px;
-  color: #fff;
+  color: #333333;
 }
 
+
+/* Header Styles */
 
 header {
   background-color: #404041;
@@ -60,56 +51,50 @@ header {
 
 header h4 {
   float: right;
-  padding: 60px 40px;
+  padding-right: 60px;
+  padding-top: 60px;
   color: #fff;
   }
 
 .logo {
   float: left;
-  padding: 15px 15px;
+  padding-top: 20px; 
+  padding-left: 60px;
 }
+
+/*Top 5 Reasons Section Styles */
 
 .top {
-  padding:80px 0;
+  padding: 40px auto;
   text-align: center;
 }
 
-.top:after {
-    content: url('../images/trianglewhite.png');
-    position: absolute;
-    display: block;
-    margin-left: 47%;
-    margin-top: 75px;
-   }
+
+/* Hero Container Styles */
 
 .hero {
-  background-color: #2698d4;
-  padding-bottom: 20px; 
+  background-color: #fff;
+  padding: 10px auto;
+  text-align: center; 
 }
-
-.hero {
-  background-color: #2698d4;
-  padding: 20px auto;
-  text-align: center;
- }
 
 .hero h2 {
-  background-color: #0e76bc;
-  padding: 30px 0;
-  padding: 20px 0;
-  color: #fff;
+  padding: 15px 0;
+  color: #2698d4;
+  text-align: center;
+  font-weight: bold;
  }
 
 .hero ul li {
-  padding: 30px 0;
-}
-
-.hero ul li h3 {
-  line-height: 28px;
+  padding: 15px 0;
 }
 
 .hero ul li h4 {
  line-height: 16px;
+}
+
+.hero ul li a {
+  color: #2698d4;
 }
 
 .hero .competition h4{
@@ -120,49 +105,48 @@ header h4 {
   display: inline;
 }
 
+/* Hero Container's "Request Demo" Button Styles*/
+
 .hero .requestdemo {
   background: #0e76bc;
   border-radius: 7px;
   box-shadow: 0 3px #0d5185;
+  font-size: 16px;
   height: 37px;
   width: 150px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  color: #fff;
-  font-size: 16px;
   display: inline;
 }
 
-.cta:before {
-    content: url('../images/triangleblue.png');
-    position: absolute;
-    display: block;
-    margin-left: 47%;
-    margin-top: -85px;
+.hero .requestdemo a {
+  color: #fff;
 }
 
+.hero .dailysales a {
+  color: #484445;
+}
+
+/*Call to Action Container Styles*/
+
 .cta {
-  padding-top: 90px;
+  padding-top: 40px;
   padding-bottom: 50px;
-}
-
-.cta {
-  padding-top: 80px;
-  padding-bottom: 40px;
   background-color: #fff;
 }
 
 .cta h3 {
   font-size: 20px;
-  line-height: 45px;
 }
 
 .cta ul li{
   display: inline-block;
   padding: 0 75px;
 }
+
+/* Demo Buttons Styles*/
 
 .cta .demo {
   background-image: url('../images/bluebtn.png');
@@ -172,6 +156,7 @@ header h4 {
   text-align: left;
 }
 
+/* Sign Up Button Styles*/
 .cta .signup {
   background-image: url('../images/orangebtn.png');
   background-repeat: no-repeat;
@@ -179,6 +164,9 @@ header h4 {
   height: 43px;
   text-align: center;
 }
+
+
+/*Go to Account Button Styles*/
 
 .cta .gotoaccount {
   background-image: url('../images/greenbtn.png');
@@ -188,13 +176,18 @@ header h4 {
   text-align: center;
 }
 
+/* Featured In Banner Styles*/
+
 .featured {
   background-image: url('../images/featured.png');
   background-repeat: no-repeat;
   background-position: 50%;
   background-color: #fff;
-  padding: 20px 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
+
+/* Footer Styles */
 
 footer {
   background-color: #404041;
