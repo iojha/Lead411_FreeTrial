@@ -18,17 +18,17 @@ h1, h2, h3, h4, p {
 }
 
 h1 {
-  font-size: 42px;
+  font-size: 38px;
   color: #2698d4;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 26px;
   color: #333333;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 20px;
   color: #333333;
 }
 
@@ -37,11 +37,16 @@ h4 {
   color: #333333;
 }
 
+p {
+  font-size: 12px;
+  color: #fff;
+}
+
 
 /* Header Styles */
 
 header {
-  background-color: #404041;
+  background-image: url('../images/homepage_bodybg.jpg');
   position: relative;
   top: 0px;
   width: auto;
@@ -65,7 +70,7 @@ header h4 {
 /*Top 5 Reasons Section Styles */
 
 .top {
-  padding: 40px auto;
+  padding: 30px auto;
   text-align: center;
 }
 
@@ -74,54 +79,53 @@ header h4 {
 
 .hero {
   background-color: #fff;
-  padding: 10px auto;
-  text-align: center; 
+  padding: 10px 0;
+  text-align: center;
 }
 
 .hero h2 {
-  padding: 15px 0;
+  top: 10px;
+  padding-bottom: 10px;
   color: #2698d4;
   text-align: center;
   font-weight: bold;
- }
-
-.hero ul li {
-  padding: 15px 0;
-}
-
-.hero ul li h4 {
- line-height: 16px;
 }
 
 .hero ul li a {
   color: #2698d4;
 }
 
-.hero .competition h4{
-  line-height: 15px;
+.hero ul li h4 {
+  line-height: 10px;
 }
 
-.hero .unlimited {
-  display: inline;
+.hero .heroline ul li {
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;  
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0 0;
 }
 
 /* Hero Container's "Request Demo" Button Styles*/
 
-.hero .requestdemo {
+.hero .heroline #requestdemo {
   background: #0e76bc;
-  border-radius: 7px;
+  border-radius: 5px;
   box-shadow: 0 3px #0d5185;
-  font-size: 16px;
-  height: 37px;
-  width: 150px;
+  font-size: 14px;
+  height: 17px;
+  width: 120px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  display: inline;
+  display: block;
 }
 
-.hero .requestdemo a {
+.hero #requestdemo a {
   color: #fff;
 }
 
@@ -132,7 +136,7 @@ header h4 {
 /*Call to Action Container Styles*/
 
 .cta {
-  padding-top: 40px;
+  padding-top: 10px;
   padding-bottom: 50px;
   background-color: #fff;
 }
@@ -189,9 +193,18 @@ header h4 {
 
 /* Footer Styles */
 
-footer {
-  background-color: #404041;
-  height: 95px;
+footer p a {
+  color: #fff;
 }
+
+footer {
+  background: url('../images/bottom_content_bg.jpg');
+  height: 180px;
+  overflow: hidden;
+  position: relative;
+}
+
+
+
 
 
